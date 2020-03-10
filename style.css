@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,body {
+	height: 100%;
+	background-color: #F7F6F1;
+}
+body > #backgrounds {
+	height: 100%;
+	float: left;
+	position: relative;
+}
+body > #information {
+	width: 496px;
+	height: 100%;
+	float: right;
+	background-color: white;
+	position: relative;
+	
+}
+body > #backgrounds > p:first-child {
+	width: 400px;
+	position: absolute;
+	left: 18px;
+	bottom: 50px;
+	font-size: 30px;
+	color: #5d5d5d;
+	line-height: 45px;
+	height: 45px;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+body > #backgrounds > b {
+	display: inline-block;
+	width: 80px;
+	position: absolute;
+	left: 18px;
+	bottom: 25px;
+	font-size: 14px;
+	color: #9c9c9c;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+body > #backgrounds > p:last-child {
+	display: inline-block;
+	width: 100px;
+	position: absolute;
+	left: 90px;
+	bottom: 25px;
+	font-size: 14px;
+	color: #969696;
+}
+body > #information > img {
+	position: absolute;
+	width: 158px;
+	height: 32px;
+	top:80px;
+	left: 70px;
+
+}
+body > #information > p {
+	position: absolute;
+	width: 158px;
+	height: 32px;
+	top:147px;
+	left: 70px;
+	font-size: 15px;
+	font-weight: bold;
+	color: grey;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+body > #information > form {
+	position: absolute;
+	width: 158px;
+	height: 32px;
+	top:170px;
+	left: 70px;
+	font-size: 15px;
+
+}
+body > #information > form > div:nth-child(1),
+body > #information > form > div:nth-child(2) {
+	border: 1px solid #d4d0d0;
+	border-radius: 2px;
+	width: 350px;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+body > #information > form > div:nth-child(1) >label ,
+body > #information > form > div:nth-child(2) > label {
+	font-size: 10px;
+	letter-spacing: 2.5px;
+	margin-left: 9px;
+	cursor: pointer;
+}
+body > #information > form > div:nth-child(1) > input,
+body > #information > form > div:nth-child(2) > input {
+	width: calc(100% - 16px);
+  	margin: 3px 9px 3px 8px ;
+  	border: none;
+  	outline: none;
+}
+body > #information > form > #bt1 {
+	position: absolute;
+	left: 0px;
+	padding: 10px 25px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #007BE8;
+	color: white;
+	border: none;
+	outline: none;
+}	
+body > #information > form > #bt1:hover {
+	background-color: rgba(0,123,232, 0.8);
+	cursor: pointer;
+}
+body > #information > form > a {
+	text-decoration: none;
+	color: #4267B2;
+	position: absolute;
+	width: 110px;
+	left:250px;
+	top: 167px;
+}
+body > #information > form >div:last-child > div {
+	position: relative;
+}
+body > #information > form > div:last-child > div >  #bt2 {
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	padding: 10px 25px;
+	padding-left: 45px;
+	border-radius: 5px;
+	background-color: #3B5998;
+	color: white;
+	width: 355px;
+	outline: none;
+	border: 2px solid white;
+	text-align:left;
+	cursor: pointer;
+}
+body > #information > form >div:last-child > div > #bt2:hover {
+	background-color: #022673;
+}
+body > #information > form > div:last-child > div > i {
+    position: absolute;
+    top: 74px;
+    left: 10px;
+    font-size: 23px;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #585858;
+
+}
+body > #information > form > div:last-child > #forbt2 {
+	top:50px;
+}
+body > #information > form > div:last-child > #forbt2 > button {
+	background-color: #DD4B39;
+}
+body > #information > form > div:last-child > #forbt2 > i {
+	position: absolute;
+    top: 74px;
+    left:5px;
+    font-size: 23px;
+    color: white;
+    padding: 5px;
+    padding-right: 8px;
+    border-right: 1px solid #585858;
+}
+body > #information > form > div:last-child > #forbt2 > button:hover {
+	background-color: #a01504;
+}
+body > #information > form > div:last-child > a {
+	text-decoration: none;
+	position: absolute;
+	top: 310px;
+	color: #007BE8;
+}
+body > #information > form > div:last-child > p {
+	text-decoration: none;
+	position: absolute;
+	top: 308px;
+	left: 60px;
+	width: 200px;
+	color: grey;
+	font-size: 16px;
+}
